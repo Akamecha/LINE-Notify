@@ -24,10 +24,10 @@ function fetchToken(code) {
   formData.append("grant_type", "authorization_code");
   formData.append("code", code);
   formData.append("redirect_uri", "http://localhost:3000/callback");
-  formData.append("client_id", "YOUR_CLIENT_ID");
+  formData.append("client_id", "qkAuGnO5FRBEBFnBP8NZob");
   formData.append(
     "client_secret",
-    "YOUR_CLIENT_SECRET"
+    "6zIVkMKFBjnxzU30S5KZyhsPMeCpGJBIoCVpq2O1Ika"
   );
 
   return fetch("https://notify-bot.line.me/oauth/token", {
